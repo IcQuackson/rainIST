@@ -35,8 +35,8 @@ The output shows partial randomness with noticeable bias fluctuations. Environme
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/ceiling-leak-entropy.git
-cd ceiling-leak-entropy
+git clone https://github.com/IcQuackson/rainIST.git
+cd rainIST
 ````
 
 ### 2. Create a virtual environment (optional but recommended)
@@ -56,7 +56,7 @@ pip install opencv-python numpy scipy
 ### 4. Run the experiment
 
 ```bash
-python leak_entropy.py
+python rain.py
 ```
 
 The webcam feed will open in a window. The script detects motion differences caused by droplets and converts them into a binary entropy stream.
